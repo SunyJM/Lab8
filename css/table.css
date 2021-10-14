@@ -24,7 +24,7 @@ th {
 }
 
 tr.even {
-  /* set background-color to #efefef;  */
+  background-color: #efefef;
 
 }
 tr:hover {
