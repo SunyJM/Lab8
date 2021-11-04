@@ -1,53 +1,42 @@
   body {
-    /*
-    set color to #665544
-    set background-color to #d4d0c6;
-    set background-image to "../img/backdrop.gif"
-    set font-family to Georgia, "Times New Roman", serif;
-     */}
+    color: #665544;
+    background-color: #d4d0c6;
+    background-image: "../img/backdrop.gif";
+    font-family: Georgia, "Times New Roman", serif;
+     }
   .wrapper {
-   /*
-   set width to 720px.
-   set margin to 0px auto;
-    */
+   width: 720px;
+   margin: 0px auto;
   }
   .header {
-    /*set margin top 40px right 0px bottom 20px left 0px use Shorthand and align text*/
+    margin: 40px, 0px, 20px, 0px;
+    text-align: center;
   }
   .entry {
-    /*
-      set the width to 220px
-      float element to the left
-      set margin to 10px
-      set height to 198px
-     */
+      width: 220px;
+      float: left;
+      margin: 10px;
+      height: 198px;
   }
 
   figure {
-    /*
-    set Displays element as a block element
-    set width to 202px
-    set height to 170px
-    set background-color to #e7e3d8
-    set margin to 0
-    set padding to 9px
-    align text to the left
-      */
+    /*Displays element as a block element*/
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    margin: 0;
+    padding: 9px;
+    text-align: left;
   }
 
   figure img {
-    /*
-    set width 200px
-    set height to 150px
-    set border to 1px solid #d6d6d6;
-
-      */
+    width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+  }
 
   figcaption {
-    /*
-    set background-image to "../img/icon.png"
-    set padding-left to 20px
-    set background-repeat property to no-repeat
-      */
-
+    background-image: "../img/icon.png";
+    padding-left: 20px;
+    background-repeat property: no-repeat;
   }

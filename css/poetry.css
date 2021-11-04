@@ -1,14 +1,33 @@
-  /* body {
+  body {
     font-family: Arial, Verdana, sans-serif;
     font-size: 90%;
-    color: #666666;
-    background-color: #f8f8f8;
+    color: black;
+    background-color: #a6a6a6;
+  }
+  h1, .subtext{
+    text-align: center;
+  }
+  h1{
+    float: none;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #404040;
+  }
+  .sub1, .sub2, .sub3{
+    text-align: center;
+    width: 33%;
+    float: left;
   }
   li {
     list-style-image: url("img/icon-plus.png");
     line-height: 1.6em;}
   table {
-    border-spacing: 0px;}
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    }
   th, td {
     padding: 5px 30px 5px 10px;
     border-spacing: 0px;
@@ -21,16 +40,10 @@
     border-bottom: 1px solid #cbd2d8;
     border-right: 1px solid #cbd2d8;}
   tr.head th {
-    color: #fff;
-    background-color: #90b4d6;
-    border-bottom: 2px solid #547ca0;
-    border-right: 1px solid #749abe;
-    border-top: 1px solid #90b4d6;
+    color: white;
+    background-color: #404040;
     text-align: center;
-    text-shadow: -1px -1px 1px #666666;
     letter-spacing: 0.15em;}
-  td {
-    text-shadow: 1px 1px 1px #ffffff;}
   tr.even td, tr.even th {
     background-color: #e8eff5;}
   tr.head th:first-child {
@@ -44,12 +57,14 @@
   fieldset {
     width: 310px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #d6d6d6;
-    background-color: #ffffff;
-    line-height: 1.6em;}
+    background-color: white;
+    line-height: 1.6em;
+    color: black;}
   legend {
-    font-style: italic;
-    color: #666666;}
+    font-style: italic;}
   input[type="text"] {
     width: 120px;
     border: 1px solid #d6d6d6;
@@ -66,15 +81,18 @@
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;}
-  input[type="submit"]:hover {
+  input[type="submit"] {
     border: 1px solid #006633;
     background-color: #00cc33;
     color: #ffffff;
-    cursor: pointer;}
+    cursor: pointer;
+    }
   .title {
     float: left;
     width: 160px;
     clear: left;}
   .submit {
-    width: 310px;
-    text-align: right;} */
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}

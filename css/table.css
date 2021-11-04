@@ -1,22 +1,22 @@
 
-  /*
-  change the body font-family to Arial, Verdana, sans-serif and set the color to #111111.
-  */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #111111;
+}
 
-/*
-set the width of the table to 600px.
- */
+table {
+  width: 600px;
+}
 
-/*
-set the padding of table header(th) and standard cells(td) to top 7px, right 10px, bottom 10px, left 10px.
- */
-
+table th{
+  padding: 7px, 10px, 10px, 10px;
+}
 
 th {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 90%
-  border-bottom:2px solid #111111;
+  border bottom: 2px solid #111111;
   border: 1px solid #999;
   text-align: center;
 }
@@ -29,4 +29,6 @@ tr:hover {
   background-color: #c3e6e5;
 }
 
-/* create a rule that allighns text to the right of the of the money class  */
+.money {
+  text-align: right;
+}
